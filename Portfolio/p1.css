@@ -1,0 +1,107 @@
+.nav {
+    width:100%;
+    left: 0;
+    justify-content: end;
+    padding:20px;
+    background-color: #be3144;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: serif;
+	position: absolute;
+}
+.About {
+    background-color: #303841;
+    text-align: center;
+    padding: 200px;
+}
+h1{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}
+.Work{
+    text-align: center;
+    background-color: #45567d ;
+    text-transform: capitalize;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.bottom-centered{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   
+}
+.Contact{
+    width: 100%;
+    background-color: teal;
+    left: 0px;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+}
+.wimg img{
+    background-color: antiquewhite;
+}
+span{
+    font-size: large;
+    color: antiquewhite;
+}
+.media{
+    justify-content: center;
+    gap: 50px;
+    font-size: 50px;
+    text-transform: lowercase;
+    width: 100%;
+    color: #303841;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c-d:hover{
+    transform:translateY(10px);
+    color: #67a3e9;
+}
+.btn-success:hover{
+    background: rgb(80, 209, 108);
+    animation: shake 0.50s;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+}
+@keyframes shake{
+    10%, 90% {transform: translate3d(-1px, 0, 0);}
+    20%, 80% {transform: translate3d(3px, 0, 0);}
+    30%, 50%, 70% {transform: translate3d(-2px, 0,0);}
+    40%, 60% {transform: translate3d(3px,0,0);}
+}
+.con{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: greenyellow;
+    padding: 20px;
+}
+.f{
+    text-align: center;
+    justify-content: bottom;
+    font-size: large;
+}
+hr{
+    background: #be3144;
+}
+.c-car{
+    width: 100%;
+    justify-items: center;
+}
+#link{
+    text-decoration: none;
+}
+
